@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+}
+
+h5{
+    font-size: 35px;
+    display: table;
+    margin: 20px auto;
+}
+
+.container{
+    border: 3px solid black;
+    width: 50vw;
+    /* height: 40vh; */
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.innerContainer{
+    width: 90%;
+    margin: 10px auto;
+    /* border: 2px solid; */
+}
+
+.row1,.row2{
+    display: flex;
+    /* padding: 20px; */
+    justify-content: space-between;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* text-align: center; */
+    
+}
+
+.row1 input, .row2 input, .row2 select{
+    padding: 5px;
+}
+.row1 label, .row2 label{
+    margin: 20px 0 10px;
+}

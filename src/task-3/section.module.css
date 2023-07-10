@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: 30px auto;
+    width: 90%;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.leftPanel {
+    align-items: left;
+    border: 2px solid #101010;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    /* height: 250px; */
+    padding: 15px;
+    width: 30%;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: 2px solid;
+    border-radius: 2px;
+    margin: 7px 0;
+    padding: 8px;
+    width: 98%;
+}
+
+button {
+    background-color: rgb(22, 99, 188);
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 4px 4px 3px #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    width: 98%;
+}
+
+.rightPanel{
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    padding: 20px;
+    word-wrap: break-word;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 15px;
+    width: 70%;
+}
+
+.sectionDetails summary, .sectionDetails p{
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+}
